@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Configuration
-apiKey = os.getenv("API_KEY")
+apiKey = "AIzaSyCy9lROS8lFHnwcN9apkC3c0UqwGobyuT8"
 
 MODEL_NAME = "gemini-1.5-flash"
 
